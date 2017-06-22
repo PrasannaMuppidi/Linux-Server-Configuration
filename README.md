@@ -143,7 +143,7 @@ Configure the Uncomplicated Firewall (UFW) to only allow incoming connections fo
 	```
 	<VirtualHost *:80>
 		ServerName 52.24.125.52
-		ServerAdmin qiaowei8993@gmail.com
+		ServerAdmin muppidi2008@gmail.com
 		WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
 		<Directory /var/www/FlaskApp/FlaskApp/>
 			Order allow,deny
